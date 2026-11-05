@@ -1,2 +1,8 @@
-/** Registration metadata for this skeleton; not a domain or API schema. */
-export const moduleDefinition = {id: 'module-boilerplate-react-inertia', presentation: 'laravel-inertia-react', status: 'skeleton'} as const;
+/** Skeleton registration metadata; this is not a domain/API contract. */
+export const moduleDefinition = {
+  "id": "module-sap-enterprise-foundation-react-inertia",
+  "presentation": "laravel-inertia-react",
+  "capabilityKey": "planned:sap:enterprise-foundation",
+  "status": "skeleton",
+  "documentation": "https://github.com/liberusoftware/documentation/blob/main/projects/sap/react/enterprise-foundation.md"
+} as const;
